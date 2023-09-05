@@ -1,0 +1,29 @@
+{
+  "name": "qunit-browserstack",
+  "version": "1.0.0",
+  "author": "BrowserStack",
+  "license": "MIT",
+  "description": "Selenium examples using QUnit and BrowserStack",
+  "keywords": [
+    "browserstack",
+    "selenium",
+    "automate",
+    "examples",
+    "qunit",
+    "qunitjs"
+  ],
+  "devDependencies": {
+    "browserstack-node-sdk": "latest",
+    "qunit": "^2.19.4"
+  },
+  "dependencies": {
+    "browserstack-local": "^1.4.8",
+    "dotenv": "^16.0.0",
+    "selenium-webdriver": "4.1.2"
+  },
+  "scripts": {
+    "sample-test": "browserstack-node-sdk qunit src/sample.test.js",
+    "sample-local-test": "browserstack-node-sdk qunit src/sample-local.test.js",
+    "postinstall": "npm update browserstack-node-sdk"
+  }
+}
