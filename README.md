@@ -1,4 +1,4 @@
-# QUnit BrowserStack <img src="assets/browserstack.png" width=25 height=25> <img src="assets/qunit.svg" width=25 height=25>
+# QUnit BrowserStack <img src="assets/browserstack.png" width=25 height=25> <img src="assets/qunit.svg" width=93 height=25>
 
 QUnit integration with BrowserStack for E2E functional testing of UI using Selenium and [browserstack-node-sdk](https://www.npmjs.com/package/browserstack-node-sdk).
 
